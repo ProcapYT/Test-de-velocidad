@@ -1,0 +1,24 @@
+{
+  "name": "VelocidadEscribiendo",
+  "version": "1.0.0",
+  "homepage": "",
+  "description": "Un test para ver a que velocidad escribes (está en inglés).",
+  "main": "index.js",
+  "scripts": {
+    "test": "Has ejecutado el test!!",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "icon": "./assets/icon.png",
+    "linux": {
+      "target": "deb"
+    }
+  },
+  "author": "Samuel Pedrera",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.4",
+    "electron-builder": "^24.6.4"
+  }
+}
